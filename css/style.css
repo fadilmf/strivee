@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #97cf8a;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #315a39;
+}
+
+.navbar form {
+  margin-right: 0;
+}
+
+.alert.m-0 {
+  padding: 0.375rem;
+}
+
+.card,
+.modal-content,
+.bg {
+  background-color: #d5e8d7;
+}
+
+.product-list {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.product-list::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.product-list::-webkit-scrollbar-track {
+  display: none;
+}
+
+.product-list::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.product-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (min-width: 768px) {
+  .collapse.not-md {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
